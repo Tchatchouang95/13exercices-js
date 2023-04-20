@@ -73,12 +73,12 @@ function leap_year(){
     {
         if(year % 100 != 0)
         {
-            alert("Oui" + year + "est une année bissextile");
+            alert("Oui "+year+" est une année bissextile");
         }
     }
     else
     {
-        alert("<b>NON</b> c'est n'est pas une année bissextile");
+        alert("<b>"+NON+"</b>"+" c'est n'est pas une année bissextile");
     }
 }
 
