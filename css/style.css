@@ -1,0 +1,20 @@
+.section{
+    background-color:rgb(231, 230, 230);
+    padding: 15px 20px 30px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    background-color: white;
+    padding: 15px;
+    border-left: 5px solid rgb(3, 174, 3);
+}
+
+.section button {
+    padding: 8px 25px;
+    color: white;
+    background-color: rgb(3, 174, 3);
+    border: none;
+    border-radius: 8px;
+}

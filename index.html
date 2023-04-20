@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/exercises.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Exercises Javascript</h1>
+    <div class="section">
+        <h2>Question 1</h2>
+        <p>Écrire un programme qui demande un mot de passe à l’utilisateur et qui affiche
+            "bienvenue" si le mot de passe est correct et "erreur de mot de passe" si le mot
+            de passe est incorrect.
+        </p>
+        <button onclick="check_password()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 2.(a)</h2>
+        <p>
+            Écrire un programme qui demande à l'utilisateur un Nombre X et affiche une
+            suite de nombre pairs de 0 à ce nombre donné
+        </p>
+        <button onclick="even_numbers()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 2.(b)</h2>
+        <p>
+            Écrire un programme qui demande à l'utilisateur un Nombre X et affiche une
+            suite de nombre impairs de 0 à ce nombre donné
+        </p>
+        <button onclick="odd_numbers()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 3</h2>
+        <p>
+            Écrivez en JavaScript un algorithme qui prend en entrée deux variables entières a
+            et b et échange leurs valeurs
+        </p>
+        <button onclick="swap()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 4</h2>
+        <p>
+            Écrivez en JavaScript un programme qui demande à l'utilisateur d'entrée une
+            année (YYYY) et le programme vérifie si c'est une année bissextile.<br>
+            Si oui : le programme affiche : Oui c'est une année bissextile<br>
+            Si non : le programme affiche : NON ce n'est pas une année bissextile<br>
+        </p>
+        <button onclick="leap_year()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 5</h2>
+        <p>
+            Écrire un programme JavaScript qui résous une équation du second degré une
+            équation du second degré a la forme aX² + bX + c = 0.<br>
+            Déterminer les racines en simulant les valeurs de a, b et c.
+        </p>
+        <button onclick="eqn_quadratic()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 6</h2>
+        <p>
+            Écrire un algorithme qui demande à l’utilisateur un nombre compris entre 1 et 3
+            jusqu’à ce que la réponse convienne.
+        </p>
+        <button onclick="val_check_1()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 7</h2>
+        <p>
+            Écrire un algorithme qui demande un nombre compris entre 10 et 20, jusqu’à ce
+            que la réponse convienne. En cas de réponse supérieure à 20, on fera apparaître
+            un message : « Plus petit ! », et inversement, « Plus grand ! » si le nombre est
+            inférieur à 10
+        </p>
+        <button onclick="val_check_2()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 8</h2>
+        <p>
+            Écrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les
+            dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, le
+            programme affichera les nombres de 18 à 27.
+        </p>
+        <button onclick="enumb_seq()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 9</h2>
+        <p>
+            Écrire un algorithme qui demande un nombre de départ, et qui ensuite écrit la
+            table de multiplication de ce nombre, présentée comme suit (cas où l'utilisateur
+            entre le nombre 7) :
+        </p>
+        <button onclick="tab_mul()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 10</h2>
+        <p>
+            Écrire un algorithme qui demande un nombre de départ, et qui calcule la somme
+            des entiers jusqu’à ce nombre. Par exemple, si l’on entre 5, le programme doit
+            calculer : 1 + 2 + 3 + 4 + 5 = 15<br>
+            NB : on souhaite afficher uniquement le résultat, pas la décomposition du calcul.
+        </p>
+        <button onclick="sum()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 11</h2>
+        <p>
+            Écrire un algorithme qui demande un nombre de départ, et qui calcule sa
+            factorielle.<br>
+            NB : la factorielle de 8, notée 8!, vaut
+            1 x 2 x 3 x 4 x 5 x 6 x 7 x 8
+        </p>
+        <button onclick="factoriel()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 12</h2>
+        <p>
+            Écrire un algorithme qui demande successivement 20 nombres à l’utilisateur, et
+            qui lui dise ensuite quel était le plus grand parmi ces 20 nombres :<br>
+            Entrez le nombre numéro 1 : 12<br>
+            Entrez le nombre numéro 2 : 14<br>
+            etc.<br>
+            Entrez le nombre numéro 20 : 6 <br><br>
+             <b>Le plus grand de ces nombres est : 14</b><br><br>
+            Modifiez ensuite l’algorithme pour que le programme affiche de surcroît en quelle
+            position avait été saisie ce nombre :<br><br>
+             <b>C’était le nombre numéro 2</b>
+        </p>
+        <button onclick="largest_num()">Try it</button>
+    </div>
+    <div class="section">
+        <h2>Question 13</h2>
+        <p>
+            Réécrire l’algorithme précédent (12), mais cette fois-ci on ne connaît pas d’avance
+            combien l’utilisateur souhaite saisir de nombres. La saisie des nombres s’arrête
+            lorsque l’utilisateur entre un zéro.
+        </p>
+        <button onclick="largest_num_suite()">Try it</button>
+    </div>
+    
+    
+</body>
+</html>
